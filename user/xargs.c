@@ -9,7 +9,7 @@
 struct x_args
 {
     char *args[MAXARGS];
-    int num;
+    int num; // don't know why, once this var changed, the exec won't output properly.
 };
 
 void work_around(char *argv[])
